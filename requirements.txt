@@ -1,0 +1,2 @@
+pytest>=7.0.0
+pycodestyle>=2.9.0
