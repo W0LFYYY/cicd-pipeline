@@ -3,7 +3,7 @@ pipeline {
     
     environment {
         WEBEX_BOT_TOKEN = credentials('webex-bot-token')
-        WEBEX_ROOM_ID = 'PLACEHOLDER_ROOM_ID'
+        WEBEX_ROOM_ID = 'Y2lzY29zcGFyazovL3VybjpURUFNOnVzLXdlc3QtMl9yL1JPT00vZmI1NjVkMjAtYzBmZi0xMWYwLWJlN2ItZDljYjZkZGY5ZDA4'
     }
     
     stages {
