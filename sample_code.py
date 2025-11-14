@@ -15,9 +15,13 @@ def divide(a, b):
         raise ValueError("Cannot divide by zero!")
     return a / b
 
+def power(a, b):
+    """Calculate a to the power of b"""
+    return a ** b
 
 if __name__ == "__main__":
     print("Addition of 2 and 3 is:", add(2, 3))
     print("Subtraction of 5 from 10 is:", subtract(10, 5))
     print("Multiplication of 4 and 5 is:", multiply(4, 5))
     print("Division of 10 by 2 is:", divide(10, 2))
+    print("2 to the power of 3 is:", power(2, 3))
